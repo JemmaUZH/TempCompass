@@ -4,7 +4,7 @@ from tqdm import tqdm
 from volcenginesdkarkruntime import Ark
 
 client = Ark(
-    base_url="https://ark-cn-beijing.bytedance.net/api/v3",  
+    base_url="...",  
     api_key=os.environ.get("ARK_API_KEY"),  
 )
 
